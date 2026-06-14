@@ -1,0 +1,7 @@
+Built a football player scouting system using Python and pandas to identify emerging talent similar to Mohamed Salah across a dataset of 5,600+ players, applying feature engineering to derive weighted positional scores (attacking, midfield, defensive) for each player.
+
+Applied unsupervised machine learning (K-Means clustering, t-SNE dimensionality reduction, and Euclidean distance similarity) to rank and visualise players by statistical closeness to a target profile, surfacing candidates like Oyarzabal, Amine Gouiri, and Rafael Leão as high-potential prospects.
+
+Performed end-to-end data wrangling and EDA including handling mixed data types, removing duplicates, encoding categorical variables with OrdinalEncoder, and normalising features with StandardScaler to prepare data for modelling.
+
+Designed interactive radar charts, heatmaps, and scatter plots using Matplotlib and Seaborn to compare shortlisted players across key attributes (finishing, dribbling, sprint speed, vision), and built a reusable pipeline allowing scouts to input any custom player for instant similarity scoring.
